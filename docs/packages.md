@@ -56,3 +56,13 @@ The COMPAS 3 metapackage does not currently declare extras for
 Each bundle will return only after its owning packages declare compatible
 COMPAS 3 dependencies and pass real Rhino, Grasshopper, or Blender runtime
 verification. Existing COMPAS 2 host-package releases are unchanged.
+
+## Downstream packages
+
+Other packages build on the framework and are maintained outside this repository. They are not part of the package matrix and are not verified by the framework test suite.
+
+| Package | Maintainer | What it adds |
+| --- | --- | --- |
+| [`brg_framework`](https://github.com/BlockResearchGroup/brg_framework) | Block Research Group, ETH Zurich | Installs `compas_framework` with the Block Research Group packages (`compas_fd`, `compas_dr`, `compas_tna`, `compas_tno`, `compas_dem`, `compas_ags`), a skill for coding agents, and an MCP server. Its agent instructions link to this repository's `AGENTS.md`. |
+
+`brg_framework` currently requires `compas>=2.16`, which is a COMPAS 2 release. It has not been verified against COMPAS 3.

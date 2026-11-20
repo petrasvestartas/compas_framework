@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+* Added a downstream packages section to the package matrix documentation, listing `brg_framework`.
 * Added the geometry-tessellation initiative inventory, architecture proposal, accepted decision records, and coordinated implementation plan.
 * Added cross-package integration tests for continuous-geometry tessellation, triangle-processing plugin boundaries, serialization, and native geometry backends.
 * Added immutable cross-repository candidate manifests, provenance and wheel
